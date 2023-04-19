@@ -56,11 +56,11 @@ const routerTplReplacer = (listFileContent) => {
   const routerMeta = {
     routes: listFileContent.map(comp => {
       return `{
-    title: '${comp.compZhName}',
-    name: '${comp.compName}',
-    path: '/components/${comp.compName}',
-    component: () => import('packages/${comp.compName}/docs/README.md'),
-  }`
+        title: '${comp.compZhName}',
+        name: '${comp.compName}',
+        path: '/components/${comp.compName}',
+        component: () => import('packages/${comp.compName}/docs/README.md'),
+      }`
     })
   }
   const routerFileContent = handlebars.compile(routerFileTpl, { noEscape: true })(routerMeta)
