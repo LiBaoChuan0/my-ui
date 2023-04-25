@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "prismjs": "^1.25.0",
-    "vue": "^3.2.23"
+    "vue": "^3.2.23" 
   },
   "devDependencies": {
     "@types/node": "^16.11.12",
@@ -31,6 +31,6 @@
     "vite-plugin-dts": "^0.9.6",
     "vite-plugin-md": "^0.11.4",
     "vue-router": "^4.0.12",
-    "vue-tsc": "^0.28.10"
+    "vue-tsc": "^0.28.10"  
   }
 }

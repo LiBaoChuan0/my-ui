@@ -13,18 +13,13 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "paths": {
-      "packages/*": ["./packages/*"]
+      "packages/*": ["./packages/my-ui-owntest/*"]
     }
   },
   "include": [
-    "*.ts",
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "packages/**/*.ts",
-    "packages/**/*.d.ts",
-    "packages/**/*.tsx",
-    "packages/**/*.vue"
+    "packages/my-ui-owntest/**/*.ts",
+    "packages/my-ui-owntest/**/*.d.ts",
+    "packages/my-ui-owntest/**/*.tsx",
+    "packages/my-ui-owntest/**/*.vue"
   ]
 }
