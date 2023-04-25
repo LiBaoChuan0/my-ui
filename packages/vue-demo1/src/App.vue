@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 // import { mButton } from "mzl-ui";
 // import { ElButton, ElTree, ElDialog } from 'element-plus'
 import { isNumber } from 'my-utils/is-number'
-import { MyTest, MyFoo } from "my-ui-owntest";
+import { MyButton, MyTest, MyFoo } from "my-ui-owntest";
 isNumber('123');
 </script>
 

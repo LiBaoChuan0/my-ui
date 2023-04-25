@@ -1,7 +1,7 @@
 {
   "name": "my-ui-owntest",
-  "version": "0.0.3",
-  "main": "./dist/my-ui-owntest.umd.js",
+  "version": "0.0.4",
+  "main": "./dist/my-ui-owntest.es.js",
   "module": "./dist/my-ui-owntest.es.js",
   "scripts": {
     "dev": "vite --config ./build/base.config.ts",
