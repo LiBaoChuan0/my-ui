@@ -1,0 +1,1 @@
+export const isArray = (val: unknown): val is number => typeof val === 'number'
